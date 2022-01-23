@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.demoweb{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/5478962.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+.logo-fish{
+    top:-40px ;
+    left:90px;
+    width:-2px;
+    opacity: 80%;
+    position: absolute;
+    height:-2px;
+    z-index: 1;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    z-index: 2;   
+}
+.navbar{
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+button{
+    color: #fbfbfb;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.content{
+    color: #fbfcfd;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+h1{
+    font-size: 80px;
+    margin: 10px 0px 30px;
+    line-height: 80px;
+}
+.sidebar{
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#00545d, #000729);
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.menu{
+    display: block;
+    width: 25px;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
+.fishes{
+    z-index: 2 ;
+}
+.social-link img, .useful-link img{
+    width: 25px;
+    margin: 5px auto;
+    cursor: pointer;
+}
+.social-link{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.useful-link{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+}
+.bubbles img{
+    width: 50px;
+    animation: bubbles 7s linear infinite;
+}
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+@keyframes bubbles {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+}
+.bubbles img:nth-child(2){
+    animation-delay: 1s;    
+}
+.bubbles img:nth-child(3){
+    animation-delay: 3s;
+    width: 25px;
+}
+.bubbles img:nth-child(4){
+    animation-delay: 4.5s;   
+}
+.bubbles img:nth-child(5){
+    animation-delay: 3s;    
+}
+.bubbles img:nth-child(6){
+    animation-delay: 6s;
+    width: 20px;
+}
+.bubbles img:nth-child(7){
+    animation-delay: 7s;
+    width: 35px;
+}
+/* .fishes img:nth-child(1){
+    position: absolute;
+    right:-150px;
+    top: 70%;
+    width: 50px;
+    animation: a 35s linear 5s infinite;    
+}
+.fishes img:nth-child(2){
+    position: absolute;
+    right:-180px;
+    top: 90%;
+    width: 80px;
+    animation: a 30s linear 20s infinite;
+}
+.fishes img:nth-child(3){
+    position: absolute;
+    left:-150px;
+    top: 80%;
+    width: 50px;
+    animation: b 35s linear 10s infinite;
+}
+.fishes img:nth-child(4){
+    position: absolute;
+    right:-150px;
+    top: 90%;
+    width: 60px;
+    animation: a 40s linear 6s infinite;
+}
+.fishes img:nth-child(5){
+    position: absolute;
+    left:-180px;
+    top: 60%;
+    width: 40px;
+    animation: b 40s linear 10s infinite;
+}
+@keyframes b{
+    0%{}
+    100%{
+        left: 100%
+    }
+}
+@keyframes a{
+    0%{}
+    100%{
+        right: 100%;
+    }
+} */
