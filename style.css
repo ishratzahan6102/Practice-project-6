@@ -158,7 +158,7 @@ h1{
     animation-delay: 7s;
     width: 35px;
 }
-/* .fishes img:nth-child(1){
+.fishes img:nth-child(1){
     position: absolute;
     right:-150px;
     top: 70%;
@@ -204,4 +204,4 @@ h1{
     100%{
         right: 100%;
     }
-} */
+} 
